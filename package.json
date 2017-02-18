@@ -11,8 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/angular": "^1.5.23",
-    "@types/node": "^7.0.4",
-    "bootstrap": "^3.3.7"
+    "@types/node": "^7.0.4"
   },
   "devDependencies": {
     "angular": "^1.6.1",
