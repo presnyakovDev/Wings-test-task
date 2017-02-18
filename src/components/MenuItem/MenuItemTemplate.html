@@ -1,0 +1,7 @@
+<li class="menu-item" role="presentation" ng-mouseover="vm.showSubMenu()" ng-mouseleave="vm.hideSubMenu()">
+  {{vm.item.name}}
+  <ul ng-if="vm.isSubmenuOpen" class="sub-menu">
+    <menu-item ng-repeat="item in vm.item.children" item="item"></menu-item>
+  </ul>
+</li>
+ 
