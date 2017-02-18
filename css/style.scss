@@ -1,3 +1,11 @@
+@mixin display-flex() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 20px 50px 150px;
@@ -36,10 +44,10 @@ body {
   }
 }
 .sub-menu{
+  @include display-flex();
   position: absolute;
   left: 0; top:48px;
   text-align: left;
-  display:flex;
   margin: 0;
   width: auto;
   padding: 0px 4px 0px 0;

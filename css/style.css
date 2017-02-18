@@ -32,11 +32,15 @@ body {
       color: #fff; }
 
 .sub-menu {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
   position: absolute;
   left: 0;
   top: 48px;
   text-align: left;
-  display: flex;
   margin: 0;
   width: auto;
   padding: 0px 4px 0px 0;
