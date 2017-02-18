@@ -1,5 +1,5 @@
 # Wings-test-task
 
 install:
-- npm i
-- npm run devServer
+- `npm i`
+- `npm run devServer`
