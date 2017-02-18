@@ -1,5 +1,5 @@
 # Wings-test-task
 
-install:
+start:
 - `npm i`
 - `npm run devServer`
